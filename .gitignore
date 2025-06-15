@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.log
+
+# Virtual environments
+venv/
+env/
+ai-app/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PyInstaller build folders
+build/
+dist/
+*.spec
+
+# IDEs
+.vscode/
+.idea/
+
+# Compiled files
+*.exe
+*.dll
+*.bin
+*.app
+*.deb
+
+# Model and weights
+weights/
+*.onnx
+*.pt
+*.h5
+
+# Jupyter and IPython
+.ipynb_checkpoints/
