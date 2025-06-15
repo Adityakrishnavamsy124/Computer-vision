@@ -1,4 +1,26 @@
-📦 PPE-Detection-App/
+# 🦺 PPE Detection Desktop App
+
+A lightweight desktop application for detecting **Personal Protective Equipment (PPE)** like helmets and vests using a deep learning model. It features a drag-and-drop GUI and uses **YOLOv8 + ONNX** for real-time image inference.
+
+---
+
+## 🧠 Machine Learning Model
+
+This app uses **YOLOv8 (You Only Look Once, version 8)** for object detection. The model is:
+
+- Trained using the **Ultralytics YOLOv8 framework**
+- Exported to **ONNX format** for fast inference with **ONNX Runtime**
+- Suitable for detecting multiple PPE items (helmet, vest, etc.) in a single image
+
+**Advantages**:
+- ⚡ Real-time performance  
+- 🧩 Small model size  
+- 📦 Easy to package with Python
+
+---
+
+## 📂 Project Structure
+PPE-Detection-App/
 │
 ├── main.py               # Entry point for GUI
 ├── gui/                  # UI elements
@@ -9,16 +31,10 @@
 ├── weights/
 │   └── best.onnx         # Your trained ONNX model
 ├── utils/
-│   └── file_loader.py    # Folder/image loading
+│   ├── file_loader.py    # Folder/image loading
 │   └── compliance.py     # Safety rule checker
 ├── requirements.txt
 └── ppe_app.spec          # (Auto-generated) for PyInstaller
-
-
-GUI	PySide6 / PyQt6	Desktop interface, drag-drop, views
-Detection	Ultralytics + ONNX	Efficient YOLOv8 ONNX inference
-Image	OpenCV	Drawing boxes, reading frames
-Packaging	PyInstaller	Turn Python into .exe
 
 ![image](https://github.com/user-attachments/assets/aed58308-eb18-4ece-9f3e-6e439380a143)
 
