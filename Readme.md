@@ -1,4 +1,4 @@
-# 🦺 PPE Detection Desktop App
+# 🦺 PPE Detection for smart factories
 
 A lightweight desktop application for detecting **Personal Protective Equipment (PPE)** like helmets and vests using a deep learning model. It features a drag-and-drop GUI and uses **YOLOv8 + ONNX** for real-time image inference.
 
